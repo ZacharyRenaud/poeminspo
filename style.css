@@ -1,1 +1,28 @@
+/*
+Color Palette: 
+background color: #FFF9DE
+font color: #FFD3B0
+secondary color: #FF6969
+tertiary color: #A6D0DD
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap');
+
+
+header {
+    margin: 0 4rem;
+    letter-spacing: 0.8rem;
+    text-align: center;
+    border-bottom: 1px solid #FF6969;
+    border-right: 1px solid #FF6969;
+    border-left: 1px solid #FF6969;
+    padding: 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: 'Arial', sans-serif; 
+}
+
+body {
+    
+}
