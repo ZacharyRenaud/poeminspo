@@ -8,21 +8,101 @@ tertiary color: #A6D0DD
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:ital,wght@0,700;1,400&display=swap');
 
+@font-face {
+  font-family: 'nice';
+  src: url(MyTupi.ttf);
+}
 
 header {
-    margin: 0 4rem;
+    margin: 1rem;
     letter-spacing: 0.8rem;
     text-align: center;
-    border-bottom: 1px solid #FF6969;
-    border-right: 1px solid #FF6969;
-    border-left: 1px solid #FF6969;
     padding: 0.5rem;
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    font-family: 'Arial', sans-serif; 
+    text-transform: uppercase; 
+    font-size: .7rem;
+    font-family: 'Open Sans', sans-serif; 
+    height: 4.5rem;
+    align-content:center;
+    display:flex;
+    justify-content: space-between;
+    background-color: #FFF9DE;
+}
+
+ header ul {
+    list-style: none;
+} 
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #A6D0DD;
+  text-decoration: none;
+}
+
+
+a:active {
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  color:#A6D0DD;
 }
 
 body {
+    background-color: white;
+}
+
+.main {
+    align-content:center;   
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    text-align: center;
+    line-height: 3rem;
+    font-family: 'nice', sans-serif;
     
 }
+
+.main h1 {
+  font-size: 5rem;
+}
+
+.main p {
+  min-width: 25rem;
+  max-width: 50rem;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+}
+
+.filler {
+  line-height: 15rem;
+  height:35rem;
+}
+
+.small {
+  line-height: 15rem;
+  height:10rem;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("images/boatfun.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
